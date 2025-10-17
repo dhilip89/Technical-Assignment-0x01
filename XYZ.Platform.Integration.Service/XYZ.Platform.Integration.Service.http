@@ -1,0 +1,6 @@
+@XYZ.Platform.Integration.Service_HostAddress = http://localhost:5201
+
+GET {{XYZ.Platform.Integration.Service_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,13 @@
+﻿@page "/"
+
+<PageTitle>Import Transactions</PageTitle>
+
+<h1>Import Transactions</h1>
+
+<!-- Not a good solution, but enough to demo upload functionality -->
+
+<form action="http://localhost:5170/transactions/import" method="post" enctype="multipart/form-data">
+    <label for="myFile">Choose a file:</label>
+    <input type="file" id="file" name="file" accept=".xml, .csv">
+    <button type="submit">Upload</button>
+</form>
